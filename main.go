@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	example_basic "github.com/qba73/ghub/src/basic"
+	basicpb "github.com/qba73/ghub/src/basic"
 )
 
 func main() {
@@ -12,7 +12,7 @@ func main() {
 }
 
 func doBasic() {
-	bm := example_basic.BasicMessage{
+	bm := basicpb.BasicMessage{
 		Id:         1234,
 		IsSimple:   true,
 		Name:       "First basic message",
