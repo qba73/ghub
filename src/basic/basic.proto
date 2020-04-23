@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option go_package = "basic;example_basic";
+
+package example.basic;
+
+message BasicMessage {
+  int32 id = 1;
+  bool is_simple = 2;
+  string name = 3;
+  repeated int32 sample_list = 4;
+}
